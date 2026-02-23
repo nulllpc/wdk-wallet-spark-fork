@@ -15,7 +15,7 @@
 
 import { HDKey } from '@scure/bip32'
 
-import { ValidationError } from '#libs/spark-sdk'
+import { ValidationError } from '../libs/spark-sdk.js'
 
 export const BIP_44_LBTC_DERIVATION_PATH_PREFIX = "m/44'/998'"
 
